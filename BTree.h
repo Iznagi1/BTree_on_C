@@ -11,4 +11,5 @@ void BTree_add(struct BTree_t* BTree, int data);
 void BTree_print(struct BTree_t* BTree);
 bool_t BTree_find(struct BTree_t* BTree, int data);
 void BTree_delete(struct BTree_t* BTree, int data);
+void BTree_destruct(struct BTree_t* BTree);
 #endif //BTREE_BTREE_H
