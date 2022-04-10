@@ -136,7 +136,10 @@ BTree_t* BTree_malloc()
     return (BTree_t*) malloc(sizeof(BTree_t));
 }
 
-
+void BTree_construct(BTree_t* BTree)
+{
+    BTree->root = NULL;
+}
 
 void BTree_destruct(BTree_t* BTree)
 {
